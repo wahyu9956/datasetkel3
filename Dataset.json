@@ -1,0 +1,157 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "hallo",
+          "hai",
+          "hei",
+          "Hi",
+          "hi",
+          "hi, apa yang bisa saya bantu",
+          "Hi apa kabar",
+          "start",
+          "apa kabar",
+          "hy",
+          "pagi",
+          "morning",
+          "siang",
+          "afternoon",
+          "sore",
+          "malam"
+        ],
+        "responses": [
+          "Hi, Apa ada yang bisa saya bantu",
+          "Hai, adakah yang perlu saya bantu"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Dah",
+          "Dadah",
+          "see u",
+          "bye",
+          "selamat tinggal",
+          "see u next time",
+          "bye bye",
+          "See you"
+        ],
+        "responses": [
+          "Bye!",
+          "Dadahh!",
+          "Good bye!",
+          "semoga hari harimu menyenangkan",
+          "sehat sehat terus ya",
+          "Semoga happy terus"
+        ]
+      },
+      {
+        "tag": "terimakasih",
+        "patterns": [
+          "Thanks a lot",
+          "Thank you",
+          "makasih banyak",
+          "Makasih banget",
+          "Terima kasih"
+        ],
+        "responses": [
+          "tentu saja:)",
+          "You are welcome",
+          "sama sama",
+          "of course"
+        ]
+      },
+      {
+        "tag": "Jadwal Bengkel",
+        "patterns": [
+          "Apakah Bengkel buka setiap hari atau ada hari libur tertentu"  
+        ],
+        "responses": [
+          "Baik, mengenai jam operasional bengkel yamaha kami buka Senin-Jum'at"
+        ]
+      },
+      {
+        "tag": "Sparepart",
+        "patterns": [
+          "Apa saja jenis spare part asli yang tersedia di bengkel Yamaha?"
+        ],
+        "responses": [
+          "Baik, Jenis-jenis spare part asli Yamaha yang tersedia di bengkel kami meliputi,Filter udara dan oli,Busi Karburator, Rantai, sepeda, motorKabel, gasRem, (cakram dan tromol) ,Oli mesin, Kopling, Gasket Aki"
+        ]
+      },
+      {
+        "tag": "layanan Service",
+        "patterns": [
+          "Apakah bengkel Yamaha memberikan jaminan atau garansi untuk layanan servis yang mereka berikan?"
+        ],
+        "responses": [
+          "Ya, kami memberikan jaminan atau garansi untuk layanan servis yang kami berikan. Garansi ini meliputi kualitas kerja dan suku cadang yang kami gunakan selama periode tertentu, biasanya tergantung pada jenis layanan yang Anda pilih. Apakah ada lagi pertanyaan?"
+        ]
+      },
+      {
+        "tag": "Informasi Layanan",
+        "patterns": [
+          "kaca spion motor saya sudah rusak, apa yang harus saya lakukan?"
+        ],
+        "responses": [
+          "anda dapat melakukan service ringan, biasanya membutuhkan waktu 45 menit atau lebih untuk perbaikan dan pergantian suku cadang. Semoga membantu!"
+        ]
+      },
+      {
+        "tag": "Jam buka - tutup bengkel",
+        "patterns": [
+          "kapan bengkel yamaha buka? "
+        ],
+        "responses": [
+          "buka setiap hari dari jam 08.00 sampai 17.00."
+        ]
+      },
+      {
+        "tag": "Ban motor",
+        "patterns": [
+          "kapan ban motor harus diganti?"
+        ],
+        "responses": [
+          "rata-rata memiliki usia pakai 3-4 tahun dengan pemakaian standar dimana setiap hari dipakai untuk kerja berangkat dan pulang saja. Namun, jika dipakai untuk operasional seharian penuh seperti pada kurir antar barang maka ketahanan usia ban motor hanya 2-3 tahun."
+        ]
+      },
+      {
+        "tag": "Oli Motor",
+        "patterns": [
+          "waktu yang tepat untuk mengganti oli motor matic"
+        ],
+        "responses": [
+          "Waktu ideal ganti oli motor matic motor yamaha itu  sama saja, dihitung berdasarkan jarak tempuh. Idealnya motor matic yamaha sebaiknya melakukan pergantian oli sebelum jarak tempuh mencapai 3.000 km."
+        ]
+      },
+      {
+        "tag": "Bensin",
+        "patterns": [
+          "motor yamaha NMAX sebaiknya diisi bensin apa?"
+        ],
+        "responses": [
+          "Yamaha NMAX memiliki rasio kompresi 10,5 : 1. Bahan bakar yang cocok dengan Yamaha NMAX yaitu bensin Pertamax."
+        ]
+      },
+      {
+        "tag": "Ukuran Piston",
+        "patterns": [
+          "Berapa ukuran piston Nmax 155 Old ?"
+        ],
+        "responses": [
+          "ukuran piston Nmax old Berukuran 58 mm dengan langkah 58,7 dan mendapatkan angka 155 cc"
+        ]
+      },
+      { 
+        "tag": "Circuit",
+        "patterns": [
+          "Bagaimana motor mio bisa membalap motor nmax di circuit sentul?"
+        ],
+        "responses": [
+          "Sebaiknya tidak dilakukan yah"
+        ]
+      }
+    ]
+  }
+  
